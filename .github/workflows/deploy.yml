@@ -1,23 +1,20 @@
-# workflow name
-name: Hexo Blog CI
+name: Hexo Blog Delopy
 
-# master branch on push, auto run
-on: 
+on:
   push:
     branches:
       - master
-      
+
 jobs:
-  build: 
-    runs-on: ubuntu-latest 
-        
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-    # check it to your workflow can access it
-    # from: https://github.com/actions/checkout
+    # @see https://github.com/actions/checkout
     - name: Checkout Repository master branch
       uses: actions/checkout@master
-      
-    # from: https://github.com/actions/setup-node
+
+    # @see https://github.com/actions/setup-node
     - name: Setup Node.js
       uses: actions/setup-node@master
       with:
@@ -27,16 +24,16 @@ jobs:
       run: |
         npm install hexo-cli -g
         npm install
-                
+
     - name: Setup Git Infomation
-      run: | 
-        git config --global user.name 'xyz8848' 
+      run: |
+        git config --global user.name 'xyz8848'
         git config --global user.email 'xyz8848git@outlook.com'
 
-    - name: Deploy Hexo 
+    - name: Deploy Hexo
       run: |
         hexo clean
-        hexo generate 
+        hexo generate
         hexo deploy
 
     - name: Deploy to GitHub Pages
@@ -44,7 +41,7 @@ jobs:
       with:
         # 部署到 gh-pages 分支
         target_branch: gh-pages
-        # 部署目录为 VuePress 的默认输出目录
+        # 部署目录为 Hexo 的默认输出目录
         build_dir: public
         # 域名(CNAME)
         fqdn: blog.xyz8848.com
