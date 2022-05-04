@@ -22,13 +22,13 @@ jobs:
 
     - name: Setup Hexo
       run: |
-        npm install hexo-cli -g
+        npm install hexo
 
     - name: Deploy Hexo
       run: |
-        hexo clean
-        hexo generate
-        hexo deploy
+        npm run hexo clean
+        npm run hexo generate
+        npm run hexo deploy
 
     - name: Setup Git Infomation
       run: |
