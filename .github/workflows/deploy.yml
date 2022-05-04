@@ -22,7 +22,7 @@ jobs:
 
     - name: Setup Hexo
       run: |
-        npm install hexo
+        npm install hexo-cli -g
 
     - name: Deploy Hexo
       run: |
