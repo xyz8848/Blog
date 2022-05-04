@@ -20,11 +20,9 @@ jobs:
       with:
         node-version: "14"
 
-    - name: Setup Hexo Dependencies
+    - name: Setup Hexo
       run: |
-        npm install hexo-cli -g
-        rm -rf node_modules
-        npm install --force
+        npm install hexo
 
     - name: Deploy Hexo
       run: |
