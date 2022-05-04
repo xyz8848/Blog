@@ -23,6 +23,8 @@ jobs:
     - name: Setup Hexo Dependencies
       run: |
         npm install hexo-cli -g
+        rm -rf node_modules
+        npm install --force
 
     - name: Deploy Hexo
       run: |
