@@ -52,7 +52,7 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false
+  enable: true
   links:
     github: http://github.com/xyz8848 # your GitHub URL
     weixin: # your WeChat QR-Code URL
@@ -101,7 +101,7 @@ post:
 
   # Author label
   author_label:
-    enable: true
+    enable: false
     auto: true # if true, show Lv1, Lv2, Lv3... , If false, show custom label
     # label array item can be one or more
     custom_label_list: ["Trainee", "Engineer", "Architect", "CTO", "BOSS"]
@@ -110,14 +110,14 @@ post:
 # Code copy
 # ---------------------------------------------------------------------------------------
 code_copy:
-  enable: false
-  style: default # values: default | mac
+  enable: true
+  style: mac # values: default | mac
 
 # ---------------------------------------------------------------------------------------
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
   number: false
@@ -126,13 +126,13 @@ toc:
   expand_all: false
 
   # If true, open TOC every time when you enter the article page
-  init_open: false
+  init_open: true
 
 # ---------------------------------------------------------------------------------------
 # Post copyright info
 # ---------------------------------------------------------------------------------------
 copyright_info:
-  enable: false
+  enable: true
 
 # ---------------------------------------------------------------------------------------
 # Website count
@@ -152,8 +152,8 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: false
-  preload: false # Preload the search data when the page loads
+  enable: true
+  preload: true # Preload the search data when the page loads
 
 # ---------------------------------------------------------------------------------------
 # Comment plugin
