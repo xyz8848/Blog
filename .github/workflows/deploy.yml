@@ -45,7 +45,7 @@ jobs:
         # 域名(CNAME)
         fqdn: blog.xyz8848.com
         # 强制提交
-        keep_history: true
+        keep_history: false
       env:
         # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
