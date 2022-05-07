@@ -26,8 +26,6 @@ jobs:
 
     - name: Deploy Hexo
       run: |
-        npm run clean
-        npm run generate
         npm run deploy
 
     - name: Setup Git Infomation
