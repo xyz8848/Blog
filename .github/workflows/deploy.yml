@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,17 +17,17 @@ jobs:
 
     # @see https://github.com/actions/setup-node
     - name: Setup Node.js
-      uses: actions/setup-node@master
+      uses: actions/setup-node@v1
       with:
         node-version: "14"
 
     - name: Setup Hexo
       run: |
-        npm install hexo
+        npm install hexo-cli -g
 
-    - name: Deploy Hexo
+    - name: Build Hexo site
       run: |
-        npm run deploy
+        hexo deploy
 
     - name: Setup Git Infomation
       run: |
