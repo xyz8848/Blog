@@ -27,6 +27,7 @@ jobs:
 
     - name: Build Hexo site
       run: |
+        rm -rf node_modules && npm install --force
         hexo deploy
 
     - name: Setup Git Infomation
