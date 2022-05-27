@@ -6,7 +6,7 @@ base_info:
   author: xyz8848
   url: http://blog.xyz8848.com/
   # Logo image (You can use local image, image external link or don’t fill)
-  logo_img:
+  logo_img: https://xyz8848.com/favicon.ico
 
 # ---------------------------------------------------------------------------------------
 # Theme style settings
