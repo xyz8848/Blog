@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="我的世界,Minecraft,我的世界Java版,Minecraft Java Edition,Minecraft Server,MC,MCJE,我的世界服务端类型基本介绍,Minecraft服务端类型基本介绍,Minecraft Java Edition Server,Bukkit系（纯插件服务端）,Bukkit,纯插件服务端,Spigot,Paper,Akarin,TacoSpigot,Bukkit + Forge系（可装Mods类服务端）,Bukkit + Forge,Bukkit,Forge,Catserver,Mohist,Arclight,KCauldron,Thermos,Uranium,Sponge,Sponge Forge,Sponge Vanilla">
+    <meta name="description" content="xyz8848的博客">
+    <meta name="author" content="xyz8848">
+    
+    <title>
+        
+            MCJE服务端类型基本介绍 |
+        
+        xyz8848&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://xyz8848.com/favicon.ico">
+    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"blog.xyz8848.com","root":"/","language":"zh"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#0066CC","avatar":"https://xyz8848.com/favicon.ico","favicon":"https://xyz8848.com/favicon.ico","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":false,"background_img":"/images/bg.svg","description":"xyz8848's Blog - xyz8848的博客."},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":true},"code_copy":{"enable":true,"style":"mac"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://xyz8848.com/favicon.ico">
+                </a>
+            
+            <a class="logo-title" href="/">
+                xyz8848&#39;s Blog
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">MCJE服务端类型基本介绍</span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="https://xyz8848.com/favicon.ico">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">xyz8848</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2021-02-09 20:34:00</span>
+        <span class="mobile">2021-02-09 20:34</span>
+    </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/">我的世界</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Minecraft/">Minecraft</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8CJava%E7%89%88/">我的世界Java版</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Minecraft-Java-Edition/">Minecraft Java Edition</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Minecraft-Server/">Minecraft Server</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h2 id="Bukkit系（纯插件服务端）"><a href="#Bukkit系（纯插件服务端）" class="headerlink" title="Bukkit系（纯插件服务端）"></a>Bukkit系（纯插件服务端）</h2><h3 id="Spigot"><a href="#Spigot" class="headerlink" title="Spigot"></a><a class="link"   target="_blank" rel="noopener" href="https://spigotmc.org/" >Spigot<i class="fas fa-external-link-alt"></i></a></h3><p>最常用的纯插件服务端，是CraftBukkit服务端的优化版，以多插件，高兼容性和稳定性著称，拥有着大量的插件以及完整的社区，下面介绍的服务端全是以Spigot为基础进行开发的……<br><img src="http://cdn.xyz8848.cf/img/blog/2/1.png" alt="Spigot"></p>
+<h3 id="Paper"><a href="#Paper" class="headerlink" title="Paper"></a><a class="link"   target="_blank" rel="noopener" href="https://papermc.io/" >Paper<i class="fas fa-external-link-alt"></i></a></h3><p>原名为PaperSpigot，拥有着大量的优化功能和高兼容性，同时拥有Timings的较新版本，并且也在BukkitAPI和SpigotAPI的基础上改进制作出PaperAPI。<br><img src="http://cdn.xyz8848.cf/img/blog/2/2.png" alt="Paper"></p>
+<h3 id="Akarin"><a href="#Akarin" class="headerlink" title="Akarin"></a><a class="link"   target="_blank" rel="noopener" href="https://akarin.app/" >Akarin<i class="fas fa-external-link-alt"></i></a></h3><p>原名Torch，是Paper的优化端，更多游戏机制可配置，并且在高速的同时拥有较好的稳定性，阿卡林服务端是目前唯一一个多线程Bukkit同时优化与稳定性较高的服务端。<br><img src="http://cdn.xyz8848.cf/img/blog/2/3.png" alt="Akarin"></p>
+<h3 id="TacoSpigot"><a href="#TacoSpigot" class="headerlink" title="TacoSpigot"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/TacoSpigot/TacoSpigot/" >TacoSpigot<i class="fas fa-external-link-alt"></i></a></h3><p>同样是Paper的优化端，已弃坑。</p>
+<h2 id="Bukkit-Forge-系-（可装Mods类服务端）"><a href="#Bukkit-Forge-系-（可装Mods类服务端）" class="headerlink" title="Bukkit + Forge 系 （可装Mods类服务端）"></a>Bukkit + Forge 系 （可装Mods类服务端）</h2><h3 id="Catserver"><a href="#Catserver" class="headerlink" title="Catserver"></a><a class="link"   target="_blank" rel="noopener" href="https://catserver.moe/" >Catserver<i class="fas fa-external-link-alt"></i></a></h3><p>拥有原创优化与Paper优化功能，是1.12.2的Bukkit+Spigot+Forge的 服务端核心，修复了大量的BUG，国内最早开发的高版本核心, 支持大部分MOD和插件同时稳定运行。</p>
+<h3 id="Mohist"><a href="#Mohist" class="headerlink" title="Mohist"></a><a class="link"   target="_blank" rel="noopener" href="https://mohistmc.com/" >Mohist<i class="fas fa-external-link-alt"></i></a></h3><p>几乎兼容所有的Forge MOD和Bukkit&#x2F;Spigot插件，拥有1.12.2和1.15.2的Bukkit+Spigot+Forge服务端核心，国外热门的高版本核心，提供了中文语言的支持。<br><img src="http://cdn.xyz8848.cf/img/blog/2/4.png" alt="Mohist"></p>
+<h3 id="Arclight"><a href="#Arclight" class="headerlink" title="Arclight"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/IzzelAliz/Arclight/" >Arclight<i class="fas fa-external-link-alt"></i></a></h3><p>在 Forge 上使用 Mixin 实现的 Bukkit 服务端。由于是新服务端，稳定性有点低，但值得期待，高版本MOD服值得一试。</p>
+<h3 id="KCauldron"><a href="#KCauldron" class="headerlink" title="KCauldron"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/Beshelmek/KCauldron/" >KCauldron<i class="fas fa-external-link-alt"></i></a></h3><p>原名MCPC+，是1.7.10老牌MOD服务端，几乎所有1.7.10MOD服务端都以此为基础进行再开发。</p>
+<h3 id="Thermos"><a href="#Thermos" class="headerlink" title="Thermos"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/CyberdyneCC/Thermos/" >Thermos<i class="fas fa-external-link-alt"></i></a></h3><p>KCauldron的优化端，在KCauldron停止开发的期间就出现了Thermos比KC的兼容性更高，修复了大量在KC端出现的bug进行了大量的优化，且Forge不再会跳过bukkit的插件。</p>
+<h3 id="Uranium"><a href="#Uranium" class="headerlink" title="Uranium"></a><a class="link"   target="_blank" rel="noopener" href="https://github.com/UraniumMC/Uranium/" >Uranium<i class="fas fa-external-link-alt"></i></a></h3><p>KCauldron的优化端，类似于Fhermos修复了更多的BUG和提供更强的兼容性有国人开发者在内共同开发。</p>
+<h2 id="Sponge系"><a href="#Sponge系" class="headerlink" title="Sponge系"></a>Sponge系</h2><p><img src="http://cdn.xyz8848.cf/img/blog/2/5.png" alt="Sponge"></p>
+<h3 id="Sponge-Forge"><a href="#Sponge-Forge" class="headerlink" title="Sponge Forge"></a><a class="link"   target="_blank" rel="noopener" href="https://www.spongepowered.org/" >Sponge Forge<i class="fas fa-external-link-alt"></i></a></h3><p>区别于Bukkit系服务端的又一服务端，支持MOD和Sponge插件，拥有独立的SpongeAPI进行开发，使得只需要开发一个API插件即可在同一个API的不同MineCraft版本上运行，许多Bukkit系插件也同意开发Sponge版本。</p>
+<h3 id="Sponge-Vanilla"><a href="#Sponge-Vanilla" class="headerlink" title="Sponge Vanilla"></a><a class="link"   target="_blank" rel="noopener" href="https://www.spongepowered.org/" >Sponge Vanilla<i class="fas fa-external-link-alt"></i></a></h3><p>仅支持Sponge系插件的纯净服务端。</p>
+<script src="https://giscus.app/client.js"
+        data-repo="XyzComments/blog.xyz8848.com"
+        data-repo-id="R_kgDOHq8Hag"
+        data-category="Comments"
+        data-category-id="DIC_kwDOHq8Has4CQRHf"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>Post title：MCJE服务端类型基本介绍</li>
+        <li>Post author：xyz8848</li>
+        <li>Create time：2021-02-09 20:34:00</li>
+        <li>
+            Post link：http://blog.xyz8848.com/p/2/
+        </li>
+        <li>
+            Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/">#我的世界</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/Minecraft/">#Minecraft</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8CJava%E7%89%88/">#我的世界Java版</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/Minecraft-Java-Edition/">#Minecraft Java Edition</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/Minecraft-Server/">#Minecraft Server</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                           rel="prev"
+                           href="/p/3/"
+                        >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">使用CloudStudio搭建MCJE服务器</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/p/1/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">MC常用网站</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>
+              -
+            
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">xyz8848</a>
+        </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.5</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Bukkit%E7%B3%BB%EF%BC%88%E7%BA%AF%E6%8F%92%E4%BB%B6%E6%9C%8D%E5%8A%A1%E7%AB%AF%EF%BC%89"><span class="nav-text">Bukkit系（纯插件服务端）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Spigot"><span class="nav-text">Spigot</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Paper"><span class="nav-text">Paper</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Akarin"><span class="nav-text">Akarin</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TacoSpigot"><span class="nav-text">TacoSpigot</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Bukkit-Forge-%E7%B3%BB-%EF%BC%88%E5%8F%AF%E8%A3%85Mods%E7%B1%BB%E6%9C%8D%E5%8A%A1%E7%AB%AF%EF%BC%89"><span class="nav-text">Bukkit + Forge 系 （可装Mods类服务端）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Catserver"><span class="nav-text">Catserver</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mohist"><span class="nav-text">Mohist</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Arclight"><span class="nav-text">Arclight</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#KCauldron"><span class="nav-text">KCauldron</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Thermos"><span class="nav-text">Thermos</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Uranium"><span class="nav-text">Uranium</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sponge%E7%B3%BB"><span class="nav-text">Sponge系</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Sponge-Forge"><span class="nav-text">Sponge Forge</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sponge-Vanilla"><span class="nav-text">Sponge Vanilla</span></a></li></ol></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-copy.js"></script>
+
+
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/left-side-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
+    
+</div>
+
+
+
+</body>
+</html>

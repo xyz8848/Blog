@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="我的世界,Minecraft,我的世界Java版,Minecraft Java Edition,MC,MCJE,我的世界服务器,Minecraft Server,CloudStudio,搭建服务器,搭建我的世界服务器,CloudStudio搭建我的世界服务器">
+    <meta name="description" content="xyz8848的博客">
+    <meta name="author" content="xyz8848">
+    
+    <title>
+        
+            使用CloudStudio搭建MCJE服务器 |
+        
+        xyz8848&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="https://xyz8848.com/favicon.ico">
+    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"blog.xyz8848.com","root":"/","language":"zh"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true},"style":{"primary_color":"#0066CC","avatar":"https://xyz8848.com/favicon.ico","favicon":"https://xyz8848.com/favicon.ico","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":false,"background_img":"/images/bg.svg","description":"xyz8848's Blog - xyz8848的博客."},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":true},"code_copy":{"enable":true,"style":"mac"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="https://xyz8848.com/favicon.ico">
+                </a>
+            
+            <a class="logo-title" href="/">
+                xyz8848&#39;s Blog
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">使用CloudStudio搭建MCJE服务器</span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="https://xyz8848.com/favicon.ico">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">xyz8848</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2021-02-23 20:02:00</span>
+        <span class="mobile">2021-02-23 20:02</span>
+    </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/">我的世界</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Minecraft/">Minecraft</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8CJava%E7%89%88/">我的世界Java版</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Minecraft-Java-Edition/">Minecraft Java Edition</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Minecraft-Server/">Minecraft Server</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/">我的世界服务器</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/CloudStudio/">CloudStudio</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/">搭建服务器</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h2 id="创建并进入工作空间"><a href="#创建并进入工作空间" class="headerlink" title="创建并进入工作空间"></a>创建并进入工作空间</h2><p><img src="http://cdn.xyz8848.cf/img/blog/3/1.png"><br><img src="http://cdn.xyz8848.cf/img/blog/3/2.png"><br><img src="http://cdn.xyz8848.cf/img/blog/3/3.png"></p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><img src="http://cdn.xyz8848.cf/img/blog/3/4.png"><br>打开终端后，先新建两个文件夹，一个叫server，另一个叫frp<br>在终端输入 <code>mkdir server</code> 和 <code>mkdir frp</code><br><img src="http://cdn.xyz8848.cf/img/blog/3/5.png"></p>
+<h2 id="安装-wget"><a href="#安装-wget" class="headerlink" title="安装 wget"></a>安装 wget</h2><p>由于它的系统比较纯净，所以无法直接使用 wget<br>这时，我们就需要安装 wget<br>首先我们先输入 <code>apt update</code><br>再输入 <code>apt install wget</code><br>这样我们就安装好了 wget<br><img src="http://cdn.xyz8848.cf/img/blog/3/6.png"></p>
+<h2 id="下载服务器核心"><a href="#下载服务器核心" class="headerlink" title="下载服务器核心"></a>下载服务器核心</h2><p>这里我选用Spigot核心，先到<a class="link"   target="_blank" rel="noopener" href="https://getbukkit.org/download/spigot/" >Spigot的下载页面<i class="fas fa-external-link-alt"></i></a><br>如果你不知道用什么核心，可以参考我的<a href="../2">这一篇文章</a></p>
+<p>这里我选择下载1.8.8版本<br><img src="http://cdn.xyz8848.cf/img/blog/3/7.png"><br><img src="http://cdn.xyz8848.cf/img/blog/3/8.png"><br><img src="http://cdn.xyz8848.cf/img/blog/3/9.png"></p>
+<p>在终端输入 <code>cd server</code> 再输入 <code>wget 刚刚复制的下载链接</code><br>（如：<code>wget https://cdn.getbukkit.org/spigot/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar</code>）<br><img src="http://cdn.xyz8848.cf/img/blog/3/10.png"></p>
+<h2 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h2><h3 id="搭建隧道"><a href="#搭建隧道" class="headerlink" title="搭建隧道"></a>搭建隧道</h3><p>这里我使用<a class="link"   target="_blank" rel="noopener" href="https://www.natfrp.com/" >SakuraFrp<i class="fas fa-external-link-alt"></i></a><br>注册&#x2F;登录 后，来到“管理面板”</p>
+<p>再创建隧道<br><img src="http://cdn.xyz8848.cf/img/blog/3/11.png"></p>
+<p>先选择穿透节点，这里我使用的节点是美国洛杉矶CN2节点（你也可以选择其他节点）<br><img src="http://cdn.xyz8848.cf/img/blog/3/12.png"></p>
+<p>再选择隧道类型，必须用TCP<br><img src="http://cdn.xyz8848.cf/img/blog/3/13.png"></p>
+<p>再填写基本设置<br><img src="http://cdn.xyz8848.cf/img/blog/3/14.png"></p>
+<h3 id="使用隧道"><a href="#使用隧道" class="headerlink" title="使用隧道"></a>使用隧道</h3><ol>
+<li>使用隧道就必须要下载一个软件<br><img src="http://cdn.xyz8848.cf/img/blog/3/15.png"></li>
+<li>现在，把软件安装进去<br>再新建一个终端<br><img src="http://cdn.xyz8848.cf/img/blog/3/16.png"></li>
+<li>在新的终端里面分别输入 <code>cd frp</code> 和 <code>wget 你刚刚在内网穿透软件下载界面复制的链接</code><br>（如：<code>wget https://getfrp.sh/d/frpc_linux_amd64</code>）<br><img src="http://cdn.xyz8848.cf/img/blog/3/17.png"></li>
+<li>下载完成后，我们就要赋予它执行权限。输入 <code>chmod +x 文件名</code>（文件名在下图）<br><img src="http://cdn.xyz8848.cf/img/blog/3/18.png"></li>
+<li>再输入 .&#x2F;文件名，即可运行此程序<br><img src="http://cdn.xyz8848.cf/img/blog/3/19.png"></li>
+<li>当出现这个界面时，就代表运行成功了，我们需要输入登录令牌（登录令牌在下一步的图中）<br><img src="http://cdn.xyz8848.cf/img/blog/3/20.png"></li>
+<li>登录令牌可以在内网穿透网站的管理面板中找到<br><img src="http://cdn.xyz8848.cf/img/blog/3/21.png"></li>
+<li>输入了你的令牌之后，点击下方的login，就可以到这个界面了<br><img src="http://cdn.xyz8848.cf/img/blog/3/22.png"></li>
+<li>这时你使用鼠标左键点击你想要选择的隧道，选好后Ctrl+C即可<br>选好之后等它加载一会就会出现服务器IP，如下图<br><img src="http://cdn.xyz8848.cf/img/blog/3/23.png"></li>
+</ol>
+<h2 id="启动Minecraft服务器"><a href="#启动Minecraft服务器" class="headerlink" title="启动Minecraft服务器"></a>启动Minecraft服务器</h2><p>回到第一个终端<br><img src="http://cdn.xyz8848.cf/img/blog/3/24.png"><br><img src="http://cdn.xyz8848.cf/img/blog/3/25.png"><br><img src="http://cdn.xyz8848.cf/img/blog/3/26.png"><br>在终端里输入 java -jar 服务器核心名字<br>（如：java -jar server.jar）<br><img src="http://cdn.xyz8848.cf/img/blog/3/27.png"><br><img src="http://cdn.xyz8848.cf/img/blog/3/28.png"><br><img src="http://cdn.xyz8848.cf/img/blog/3/29.png"></p>
+<h2 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h2><ol>
+<li>当你关闭网页后服务器也会关闭</li>
+<li>如果你的终端变成了下图这样，输入 <code>n</code> 并回车即可<br><img src="http://cdn.xyz8848.cf/img/blog/3/30.png"></li>
+</ol>
+<h2 id="关闭服务器"><a href="#关闭服务器" class="headerlink" title="关闭服务器"></a>关闭服务器</h2><p>在java终端里输入 <code>stop</code> 或 <code>end</code>（因服务器核心而定）</p>
+<script src="https://giscus.app/client.js"
+        data-repo="XyzComments/blog.xyz8848.com"
+        data-repo-id="R_kgDOHq8Hag"
+        data-category="Comments"
+        data-category-id="DIC_kwDOHq8Has4CQRHf"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>Post title：使用CloudStudio搭建MCJE服务器</li>
+        <li>Post author：xyz8848</li>
+        <li>Create time：2021-02-23 20:02:00</li>
+        <li>
+            Post link：http://blog.xyz8848.com/p/3/
+        </li>
+        <li>
+            Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/">#我的世界</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/Minecraft/">#Minecraft</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8CJava%E7%89%88/">#我的世界Java版</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/Minecraft-Java-Edition/">#Minecraft Java Edition</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/Minecraft-Server/">#Minecraft Server</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%9C%8D%E5%8A%A1%E5%99%A8/">#我的世界服务器</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/CloudStudio/">#CloudStudio</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/">#搭建服务器</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                           rel="prev"
+                           href="/p/4/"
+                        >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">电脑无法加载谷歌验证码的解决方案 (reCaptcha)</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/p/2/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">MCJE服务端类型基本介绍</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>
+              -
+            
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">xyz8848</a>
+        </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.5</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E5%B9%B6%E8%BF%9B%E5%85%A5%E5%B7%A5%E4%BD%9C%E7%A9%BA%E9%97%B4"><span class="nav-text">创建并进入工作空间</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-wget"><span class="nav-text">安装 wget</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A0%B8%E5%BF%83"><span class="nav-text">下载服务器核心</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F"><span class="nav-text">内网穿透</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E9%9A%A7%E9%81%93"><span class="nav-text">搭建隧道</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E9%9A%A7%E9%81%93"><span class="nav-text">使用隧道</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8Minecraft%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">启动Minecraft服务器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PS"><span class="nav-text">PS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E9%97%AD%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">关闭服务器</span></a></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/js/code-copy.js"></script>
+
+
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/left-side-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
+    
+</div>
+
+
+
+</body>
+</html>
