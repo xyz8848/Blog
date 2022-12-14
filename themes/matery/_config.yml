@@ -144,8 +144,8 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: https://xyz8848.com/favicon.ico
-logo: https://xyz8848.com/favicon.ico
+favicon: https://cdn.xyz8848.com/img/blog/favicon.ico
+logo: https://cdn.xyz8848.com/img/blog/favicon.ico
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -254,7 +254,7 @@ snowdown:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: https://xyz8848.com/favicon.ico
+  avatar: https://cdn.xyz8848.com/img/blog/favicon.ico
   career: 
   introduction: 
 
