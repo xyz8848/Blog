@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>xyz8848&#39;s Blog</title>
+  
+  <subtitle>xyz8848的博客</subtitle>
+  <link href="http://blog.xyz8848.com/atom.xml" rel="self"/>
+  
+  <link href="http://blog.xyz8848.com/"/>
+  <updated>2024-07-02T13:13:11.243Z</updated>
+  <id>http://blog.xyz8848.com/</id>
+  
+  <author>
+    <name>xyz8848</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决 Windows 桌面图标变白</title>
+    <link href="http://blog.xyz8848.com/archives/17/"/>
+    <id>http://blog.xyz8848.com/archives/17/</id>
+    <published>2023-08-28T19:41:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>按下 <code>Win + R</code>，输入 <code>%localappdata%</code></li><li>在打开的文件夹中，找到 <code>IconCache.db</code>，将其删除<br>（注意：<code>IconCache.db</code> 是<strong>隐藏文件</strong>）</li><li>重启 <code>Windows资源管理器</code></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;按下 &lt;code&gt;Win + R&lt;/code&gt;，输入 &lt;code&gt;%localappdata%&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在打开的文件夹中，找到 &lt;code&gt;IconCache.db&lt;/code&gt;，将其删除&lt;br&gt;（注意：&lt;code&gt;IconCache.d</summary>
+      
+    
+    
+    
+    <category term="Windows" scheme="http://blog.xyz8848.com/categories/Windows/"/>
+    
+    <category term="实用教程" scheme="http://blog.xyz8848.com/categories/Windows/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Windows" scheme="http://blog.xyz8848.com/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的世界 Xbox 购买链接</title>
+    <link href="http://blog.xyz8848.com/archives/16/"/>
+    <id>http://blog.xyz8848.com/archives/16/</id>
+    <published>2023-08-14T12:23:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><a href="https://www.xbox.com/zh-cn/games/store/minecraft-java-bedrock-edition-for-pc/9nxp44l49shj">https://www.xbox.com/zh-cn/games/store/minecraft-java-bedrock-edition-for-pc/9nxp44l49shj</a></li><li><a href="ms-windows-store://pdp/?productid=9nxp44l49shj">ms-windows-store://pdp/?productid=9nxp44l49shj</a></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.xbox.com/zh-cn/games/store/minecraft-java-bedrock-edition-for-pc/9nxp44l49shj&quot;&gt;https://www.xbox.com/zh-cn/game</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/tags/Minecraft/"/>
+    
+    <category term="Minecraft Java Edition" scheme="http://blog.xyz8848.com/tags/Minecraft-Java-Edition/"/>
+    
+    <category term="Xbox" scheme="http://blog.xyz8848.com/tags/Xbox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关闭微软 E5 两步验证</title>
+    <link href="http://blog.xyz8848.com/archives/15/"/>
+    <id>http://blog.xyz8848.com/archives/15/</id>
+    <published>2023-04-29T18:48:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>打开 <a href="https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/TenantPropertiesBlade">https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/TenantPropertiesBlade</a></li><li>点击下方 “管理安全默认值”</li><li>将 “安全默认值” 设置为 “已禁用”</li><li>点击 “保存”</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;打开 &lt;a href=&quot;https://aad.portal.azure.com/#view/Microsoft_AAD_IAM/TenantPropertiesBlade&quot;&gt;https://aad.portal.azure.com/#view/Microsof</summary>
+      
+    
+    
+    
+    <category term="实用教程" scheme="http://blog.xyz8848.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="微软" scheme="http://blog.xyz8848.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/%E5%BE%AE%E8%BD%AF/"/>
+    
+    
+    <category term="Microsoft" scheme="http://blog.xyz8848.com/tags/Microsoft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows 修改默认安装路径</title>
+    <link href="http://blog.xyz8848.com/archives/14/"/>
+    <id>http://blog.xyz8848.com/archives/14/</id>
+    <published>2022-12-24T18:55:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><ol><li>将 <code>D:\Program Files</code> 和 <code>D:\Program Files (x86)</code> 中的文件分别移动到 <code>C:\Program Files</code> 和 <code>C:\Program Files (x86)</code> 中</li><li>删除 <code>D:\Program Files</code> 和 <code>D:\Program Files (x86)</code></li><li>以 <code>管理员身份</code> 运行 <code>cmd</code></li><li>在 <code>cmd</code> 中输入以下内容：<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mklink /d "D:\Program Files" "C:\Program Files"</span><br><span class="line">mklink /d "D:\Program Files (x86)" "C:\Program Files (x86)"</span><br></pre></td></tr></tbody></table></figure></li><li>重启电脑</li></ol><h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><ol><li>在 <code>任意位置</code> 创建文件 <code>edit.reg</code></li><li>在 <code>edit.reg</code> 中输入以下内容<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line"></span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]</span><br><span class="line">"ProgramFilesDir"="D:\\Program Files"</span><br><span class="line">"CommonFilesDir"="D:\\Program Files\\Common Files"</span><br><span class="line">"ProgramFilesDir (x86)"="D:\\Program Files (x86)"</span><br><span class="line">"CommonFilesDir (x86)"="D:\\Program Files (x86)\\Common Files"</span><br></pre></td></tr></tbody></table></figure></li><li>运行 <code>edit.reg</code></li></ol><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;方法一&quot;&gt;&lt;a href=&quot;#方法一&quot; class=&quot;headerlink&quot; title=&quot;方法一&quot;&gt;&lt;/a&gt;方法一&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;将 &lt;code&gt;D:&#92;Program Files&lt;/code&gt; 和 &lt;code&gt;D:&#92;Program Files (x8</summary>
+      
+    
+    
+    
+    <category term="实用教程" scheme="http://blog.xyz8848.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Windows" scheme="http://blog.xyz8848.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/Windows/"/>
+    
+    
+    <category term="Windows" scheme="http://blog.xyz8848.com/tags/Windows/"/>
+    
+    <category term="系统" scheme="http://blog.xyz8848.com/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="Software" scheme="http://blog.xyz8848.com/tags/Software/"/>
+    
+    <category term="软件" scheme="http://blog.xyz8848.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>禁用 Windows Update 的几种方法</title>
+    <link href="http://blog.xyz8848.com/archives/13/"/>
+    <id>http://blog.xyz8848.com/archives/13/</id>
+    <published>2022-12-16T11:51:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一种方法"><a href="#第一种方法" class="headerlink" title="第一种方法"></a>第一种方法</h2><ol><li>在 <code>此电脑</code> 上右键选择 <code>管理</code></li><li>在左侧目录中依次选择 <code>服务和应用程序 &gt; 服务</code></li><li>下滑找到 <code>Windows Update</code> 并单击右键</li><li>选择 <code>停止</code></li></ol><h2 id="第二种方法"><a href="#第二种方法" class="headerlink" title="第二种方法"></a>第二种方法</h2><ol><li><code>Win + R</code></li><li>输入 <code>gpedit.msc</code></li><li>在左侧目录中依次选择 <code>计算机配置 &gt; 管理模板 &gt; Windows 组件 &gt; Windows 更新</code></li><li>双击 <code>配置自动更新</code></li><li>选择 <code>已禁用</code></li></ol><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;第一种方法&quot;&gt;&lt;a href=&quot;#第一种方法&quot; class=&quot;headerlink&quot; title=&quot;第一种方法&quot;&gt;&lt;/a&gt;第一种方法&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;在 &lt;code&gt;此电脑&lt;/code&gt; 上右键选择 &lt;code&gt;管理&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在左</summary>
+      
+    
+    
+    
+    <category term="实用教程" scheme="http://blog.xyz8848.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Windows" scheme="http://blog.xyz8848.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/Windows/"/>
+    
+    
+    <category term="Windows" scheme="http://blog.xyz8848.com/tags/Windows/"/>
+    
+    <category term="Windows Update" scheme="http://blog.xyz8848.com/tags/Windows-Update/"/>
+    
+    <category term="Windows 自动更新" scheme="http://blog.xyz8848.com/tags/Windows-%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
+    
+    <category term="系统" scheme="http://blog.xyz8848.com/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gradle setupDecompWorkspace 时内存溢出</title>
+    <link href="http://blog.xyz8848.com/archives/12/"/>
+    <id>http://blog.xyz8848.com/archives/12/</id>
+    <published>2022-11-28T20:15:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>在项目文件夹中的 <code>gradle.properties</code> 里输入以下代码</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">org.gradle.jvmargs=-Xmx2048M</span><br></pre></td></tr></tbody></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://hypixel.net/threads/i-cant-setupdecompworkspace-on-intellij-idea-pls-help-me.3856782/">https://hypixel.net/threads/i-cant-setupdecompworkspace-on-intellij-idea-pls-help-me.3856782/</a></p><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;解决方案&quot;&gt;&lt;a href=&quot;#解决方案&quot; class=&quot;headerlink&quot; title=&quot;解决方案&quot;&gt;&lt;/a&gt;解决方案&lt;/h2&gt;&lt;p&gt;在项目文件夹中的 &lt;code&gt;gradle.properties&lt;/code&gt; 里输入以下代码&lt;/p&gt;
+&lt;figure cl</summary>
+      
+    
+    
+    
+    <category term="实用教程" scheme="http://blog.xyz8848.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Gradle" scheme="http://blog.xyz8848.com/tags/Gradle/"/>
+    
+    <category term="Setup Workspace" scheme="http://blog.xyz8848.com/tags/Setup-Workspace/"/>
+    
+    <category term="内存溢出" scheme="http://blog.xyz8848.com/tags/%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何使用 GitHub Action 自动部署 Hexo 博客</title>
+    <link href="http://blog.xyz8848.com/archives/11/"/>
+    <id>http://blog.xyz8848.com/archives/11/</id>
+    <published>2022-04-04T18:32:32.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Step-1"><a href="#Step-1" class="headerlink" title="Step 1"></a>Step 1</h2><p>把 Hexo 代码放到 GitHub 的仓库里</p><h2 id="Step-2"><a href="#Step-2" class="headerlink" title="Step 2"></a>Step 2</h2><p>在 <code>.github/workflows</code> 中创建一个 <code>deploy.yml</code> 文件</p><h2 id="Step-3"><a href="#Step-3" class="headerlink" title="Step 3"></a>Step 3</h2><p>在刚刚创建的文件中输入以下代码</p><figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># @author: xyz8848</span></span><br><span class="line"><span class="comment"># @see https://xyz8848.com/index.php/archives/11/</span></span><br><span class="line"><span class="attr">name:</span> <span class="string">Hexo</span> <span class="string">Blog</span> <span class="string">Delopy</span></span><br><span class="line"></span><br><span class="line"><span class="attr">on:</span></span><br><span class="line">  <span class="attr">push:</span></span><br><span class="line">    <span class="attr">branches:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">master</span></span><br><span class="line"></span><br><span class="line"><span class="attr">jobs:</span></span><br><span class="line">  <span class="attr">build:</span></span><br><span class="line">    <span class="attr">runs-on:</span> <span class="string">ubuntu-latest</span> </span><br><span class="line"></span><br><span class="line">    <span class="attr">steps:</span></span><br><span class="line">    <span class="comment"># @see https://github.com/actions/checkout</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Checkout</span> <span class="string">Repository</span> <span class="string">master</span> <span class="string">branch</span></span><br><span class="line">      <span class="attr">uses:</span> <span class="string">actions/checkout@master</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># @see https://github.com/actions/setup-node</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Setup</span> <span class="string">Node.js</span></span><br><span class="line">      <span class="attr">uses:</span> <span class="string">actions/setup-node@master</span></span><br><span class="line">      <span class="attr">with:</span></span><br><span class="line">        <span class="attr">node-version:</span> <span class="string">"14"</span></span><br><span class="line"></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Setup</span> <span class="string">Hexo</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        npm install hexo-cli -g</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Deploy</span> <span class="string">Hexo</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        hexo clean</span></span><br><span class="line"><span class="string">        hexo generate</span></span><br><span class="line"><span class="string">        hexo deploy</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Setup</span> <span class="string">Git</span> <span class="string">Infomation</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        git config --global user.name '&lt;你的GitHub用户名&gt;'</span></span><br><span class="line"><span class="string">        git config --global user.email '&lt;你的GitHub邮箱&gt;'</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Deploy</span> <span class="string">to</span> <span class="string">GitHub</span> <span class="string">Pages</span></span><br><span class="line">      <span class="attr">uses:</span> <span class="string">crazy-max/ghaction-github-pages@v2</span></span><br><span class="line">      <span class="attr">with:</span></span><br><span class="line">        <span class="comment"># 部署到 gh-pages 分支</span></span><br><span class="line">        <span class="attr">target_branch:</span> <span class="string">gh-pages</span></span><br><span class="line">        <span class="comment"># 部署目录为 Hexo 的默认输出目录</span></span><br><span class="line">        <span class="attr">build_dir:</span> <span class="string">public</span></span><br><span class="line">        <span class="comment"># 自定义域名(CNAME)(可选)</span></span><br><span class="line">        <span class="attr">fqdn:</span> </span><br><span class="line">        <span class="comment"># 强制提交</span></span><br><span class="line">        <span class="attr">keep_history:</span> <span class="literal">true</span></span><br><span class="line">      <span class="attr">env:</span></span><br><span class="line">        <span class="comment"># @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret</span></span><br><span class="line">        <span class="attr">GITHUB_TOKEN:</span> <span class="string">${{</span> <span class="string">secrets.GITHUB_TOKEN</span> <span class="string">}}</span></span><br></pre></td></tr></tbody></table></figure><h2 id="Step-4"><a href="#Step-4" class="headerlink" title="Step 4"></a>Step 4</h2><p>更改 <code>deploy.yml</code> 中的两个字段：</p><ul><li>&lt;你的GitHub用户名&gt;</li><li>&lt;你的GitHub邮箱&gt;</li></ul><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Step-1&quot;&gt;&lt;a href=&quot;#Step-1&quot; class=&quot;headerlink&quot; title=&quot;Step 1&quot;&gt;&lt;/a&gt;Step 1&lt;/h2&gt;&lt;p&gt;把 Hexo 代码放到 GitHub 的仓库里&lt;/p&gt;
+&lt;h2 id=&quot;Step-2&quot;&gt;&lt;a href=&quot;#</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://blog.xyz8848.com/categories/Hexo/"/>
+    
+    
+    <category term="GitHub" scheme="http://blog.xyz8848.com/tags/GitHub/"/>
+    
+    <category term="GitHub Action" scheme="http://blog.xyz8848.com/tags/GitHub-Action/"/>
+    
+    <category term="Hexo" scheme="http://blog.xyz8848.com/tags/Hexo/"/>
+    
+    <category term="CI/CD" scheme="http://blog.xyz8848.com/tags/CI-CD/"/>
+    
+    <category term="自动化" scheme="http://blog.xyz8848.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MCBE 隐藏包领取</title>
+    <link href="http://blog.xyz8848.com/archives/10/"/>
+    <id>http://blog.xyz8848.com/archives/10/</id>
+    <published>2022-03-06T19:35:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="领取链接"><a href="#领取链接" class="headerlink" title="领取链接"></a>领取链接</h2><table><thead><tr><th>名称</th><th>Android</th><th>Windows</th></tr></thead><tbody><tr><td>1周年生日包</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=8e78a44d-0c1f-4ce2-826b-8bbc555012de#">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=8e78a44d-0c1f-4ce2-826b-8bbc555012de#">领取</a></td></tr><tr><td>2周年生日包</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=02b54955-9b4d-40cb-9b73-360d23cf1b9e#">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=02b54955-9b4d-40cb-9b73-360d23cf1b9e#">领取</a></td></tr><tr><td>3周年生日包</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=603d6be1-7745-4ad8-8af3-908ad017500f#">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=603d6be1-7745-4ad8-8af3-908ad017500f#">领取</a></td></tr><tr><td>4周年生日包</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=a2a7ad5c-f55e-44ff-9f70-a5ae1db821b4#">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=a2a7ad5c-f55e-44ff-9f70-a5ae1db821b4#">领取</a></td></tr><tr><td>5周年生日包</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=cc1e1b86-1863-4c1c-9103-b82b2b70a74b#">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=cc1e1b86-1863-4c1c-9103-b82b2b70a74b#">领取</a></td></tr><tr><td>Minecon2015</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=7dae6bfe-e92b-403e-842e-d8d75e329644#">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=7dae6bfe-e92b-403e-842e-d8d75e329644#">领取</a></td></tr><tr><td>Minecon2016</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=20b4d681-df67-420c-aff3-07673bb44d07#">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=20b4d681-df67-420c-aff3-07673bb44d07#">领取</a></td></tr><tr><td>Minecon2017</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=d0f9abcb-4915-4008-9837-ff7946f4a115#">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=d0f9abcb-4915-4008-9837-ff7946f4a115#">领取</a></td></tr><tr><td>Founder’s cape包（十周年披风）</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=b3b50166-5612-4ff1-8f03-9af0b01cb4da#">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=b3b50166-5612-4ff1-8f03-9af0b01cb4da#">领取</a></td></tr><tr><td>地球皮肤</td><td><a href="https://minecraft.onelink.me/1010960778?pid=minecraftnet&amp;is_retargeting=true&amp;af_sub1=7251438483c346dbbb1f462e1ed41c83&amp;af_sub2=%E5%A1%91%E6%96%99%E6%9D%90%E8%B4%A8%E5%8C%85&amp;af_sub3=490&amp;af_dp=minecraft://openStore/?showStoreOffer=0c77040a-abb6-4938-963d-5a8e9872c85c">领取</a></td><td><a href="minecraft://openStore/?showStoreOffer=0c77040a-abb6-4938-963d-5a8e9872c85c">领取</a></td></tr></tbody></table><h2 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h2><ol><li><code>Minecon2015包</code> 已绝版，需要1000000金币购买，但<code>Minecon2016包</code>包含了此内容</li><li><code>地球皮肤</code>已绝版</li></ol><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;领取链接&quot;&gt;&lt;a href=&quot;#领取链接&quot; class=&quot;headerlink&quot; title=&quot;领取链接&quot;&gt;&lt;/a&gt;领取链接&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;Android&lt;/th&gt;
+&lt;th&gt;Windows&lt;/th</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/tags/Minecraft/"/>
+    
+    <category term="Minecraft Bedrock Edition" scheme="http://blog.xyz8848.com/tags/Minecraft-Bedrock-Edition/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hypixel 2021 圣诞节礼物位置</title>
+    <link href="http://blog.xyz8848.com/archives/9/"/>
+    <id>http://blog.xyz8848.com/archives/9/</id>
+    <published>2021-12-03T21:03:12.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>/stuck - 回到大厅出生点<br>/presents - 查看每个大厅中的礼物数量以及你在每个大厅找到礼物的数量<br><img src="http://cdn.xyz8848.com/img/blog/9/1.png"></p><h2 id="Main-Lobby"><a href="#Main-Lobby" class="headerlink" title="Main Lobby"></a>Main Lobby</h2><p><img src="http://cdn.xyz8848.com/img/blog/9/2.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/3.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/4.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/5.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/6.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/7.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/8.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/9.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/10.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/11.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/12.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/13.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/14.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/15.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/16.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/17.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/18.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/19.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/20.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/21.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/22.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/23.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/24.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/25.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/26.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/27.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/28.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/29.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/30.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/31.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/32.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/33.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/34.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/35.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/36.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/37.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/38.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/39.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/40.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/41.png"></p><h2 id="Game-Lobbies"><a href="#Game-Lobbies" class="headerlink" title="Game Lobbies"></a>Game Lobbies</h2><h3 id="Bed-Wars"><a href="#Bed-Wars" class="headerlink" title="Bed Wars"></a>Bed Wars</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/42.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/43.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/44.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/45.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/46.png"></p><h3 id="Skywars"><a href="#Skywars" class="headerlink" title="Skywars"></a>Skywars</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/47.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/48.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/49.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/50.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/51.png"></p><h3 id="Murder-Mystery"><a href="#Murder-Mystery" class="headerlink" title="Murder Mystery"></a>Murder Mystery</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/52.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/53.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/54.png"></p><h3 id="The-TNT-Games"><a href="#The-TNT-Games" class="headerlink" title="The TNT Games"></a>The TNT Games</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/55.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/56.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/57.png"></p><h3 id="UHC-Champions"><a href="#UHC-Champions" class="headerlink" title="UHC Champions"></a>UHC Champions</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/58.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/59.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/60.png"></p><h3 id="Housing"><a href="#Housing" class="headerlink" title="Housing"></a>Housing</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/61.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/62.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/63.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/64.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/65.png"></p><h3 id="Build-Battle"><a href="#Build-Battle" class="headerlink" title="Build Battle"></a>Build Battle</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/66.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/67.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/68.png"></p><h3 id="Arcade-Games"><a href="#Arcade-Games" class="headerlink" title="Arcade Games"></a>Arcade Games</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/69.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/70.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/71.png"></p><h3 id="Classic-Games"><a href="#Classic-Games" class="headerlink" title="Classic Games"></a>Classic Games</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/72.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/73.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/74.png"></p><h3 id="Cops-and-Crims"><a href="#Cops-and-Crims" class="headerlink" title="Cops and Crims"></a>Cops and Crims</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/75.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/76.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/77.png"></p><h3 id="Duels"><a href="#Duels" class="headerlink" title="Duels"></a>Duels</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/78.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/79.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/80.png"></p><h3 id="Blitz-SG"><a href="#Blitz-SG" class="headerlink" title="Blitz SG"></a>Blitz SG</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/81.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/82.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/83.png"></p><h3 id="Prototype"><a href="#Prototype" class="headerlink" title="Prototype"></a>Prototype</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/84.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/85.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/86.png"></p><h3 id="Smash-Heroes"><a href="#Smash-Heroes" class="headerlink" title="Smash Heroes"></a>Smash Heroes</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/87.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/88.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/89.png"></p><h3 id="Mega-Walls"><a href="#Mega-Walls" class="headerlink" title="Mega Walls"></a>Mega Walls</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/90.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/91.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/92.png"></p><h3 id="Warlords"><a href="#Warlords" class="headerlink" title="Warlords"></a>Warlords</h3><p><img src="http://cdn.xyz8848.com/img/blog/9/93.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/94.png"><br><img src="http://cdn.xyz8848.com/img/blog/9/95.png"></p><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;/stuck - 回到大厅出生点&lt;br&gt;/presents - 查看每个大厅中的礼物数量以及你在每个大厅找到礼物的数量&lt;br&gt;&lt;img sr</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/tags/Minecraft/"/>
+    
+    <category term="Minecraft Java Edition" scheme="http://blog.xyz8848.com/tags/Minecraft-Java-Edition/"/>
+    
+    <category term="Hypixel" scheme="http://blog.xyz8848.com/tags/Hypixel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何加入/退出 Minecraft 预览版本</title>
+    <link href="http://blog.xyz8848.com/archives/8/"/>
+    <id>http://blog.xyz8848.com/archives/8/</id>
+    <published>2021-08-05T12:43:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li>Minecraft 基岩版的游戏有一个名为 Minecraft Preview 的版本，用于提前测试功能。在 Android 上，这个版本被称为 Beta 版。</li><li>在 Minecraft 预览版中，您将无法访问领域，也无法与非预览版玩家联机</li><li>预览版可能不稳定，不能代表最终版本的质量。请在加入预览版之前备份您的世界</li><li>保持稳定性，最终版本可能不包括预览版中的所有更改和修复，可能会在之后的版本中进行更改和修复</li><li>你可以在&nbsp;<a href="https://bugs.mojang.com/secure/Dashboard.jspa">Mojang Bug Tracker</a>&nbsp;提交 Bug，在 <a href="https://feedback.minecraft.net/hc/en-us">Minecraft Feedback</a> 提交你的建议</li></ul><h2 id="选择进入和退出测试版"><a href="#选择进入和退出测试版" class="headerlink" title="选择进入和退出测试版"></a>选择进入和退出测试版</h2><ul><li>Xbox One 和 Windows 玩家可以通过<a href="https://support.xbox.com/zh-CN/help/account-profile/manage-account/xbox-insider-hub">Xbox Insider Hub app</a>应用程序选择加入和退出测试版。请注意，选择加入和退出测试版可能会影响共享设备上的所有用户帐户。 请参阅我们的<a href="https://www.youtube.com/watch?v=VcpNfG_3irw">如何注册 Windows 10 测试版的 Minecraft</a> 视频</li><li>Android 玩家可以在 Google Play 商店的 Minecraft 页面上选择加入和退出</li><li>请记住，退出 Minecraft 预览版或 Minecraft Beta 有时需要24小时</li></ul><h2 id="详细的Xbox退出步骤"><a href="#详细的Xbox退出步骤" class="headerlink" title="详细的Xbox退出步骤"></a>详细的Xbox退出步骤</h2><ol><li>打开Xbox Insider Hub应用程序并取消 Minecraft 预览版</li><li>卸载Minecraft</li><li>按住电源按钮，直到 Xbox 控制台关闭，等待 10 秒钟，然后重新打开控制台，以重置 Xbox 控制台</li><li>从游戏和应用程序的“准备安装”部分重新安装 Minecraft</li></ol><h2 id="详细的Windows-10-退出步骤"><a href="#详细的Windows-10-退出步骤" class="headerlink" title="详细的Windows 10 退出步骤"></a>详细的Windows 10 退出步骤</h2><ol><li>备份你的世界！</li><li>打开 Xbox Insider Hub 应用程序并取消 Minecraft 预览版</li><li>卸载 Minecraft</li><li>在 Microsoft Store 中，重新安装 Minecraft</li></ol><h2 id="一台设备上有多个用户"><a href="#一台设备上有多个用户" class="headerlink" title="一台设备上有多个用户"></a>一台设备上有多个用户</h2><p>请注意，如果您有多个用户或 Xbox Live 帐户登录到您的 Windows 10 设备，您需要确保<strong>每个用户</strong>都：</p><ul><li>备份了存档</li><li>登录到各自的Windows和Xbox Live帐户</li><li>取消了预览测试版</li><li>卸载了Minecraft Beta版</li></ul><p>在每个用户完成这些步骤后，您可以下载Minecraft正式版</p><p>您是否有一台Windows 10 PC仍然停留在测试版，您不想这样？请尝试<a href="https://support.microsoft.com/en-us/help/4027498/microsoft-store-fix-problems-with-apps%20support.microsoft.com">Windows应用商店疑难解答</a>，它可以解决大多数人的问题</p><p>如果您仍有问题，请联系<a href="http://support.xbox.com/">Xbox支持</a>以获得进一步帮助</p><p>您还可以将<a href="http://aka.ms/MinecraftXIP">Minecraft Beta指南和常见问题</a>或<a href="#">本页</a>添加书签，以供将来参考</p><p><strong>最后一次更新</strong> - 2022-11-22 06:40:41 UTC<br><strong>原文</strong> - <a href="https://help.minecraft.net/hc/en-us/articles/360040841471">https://help.minecraft.net/hc/en-us/articles/360040841471</a></p><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Minecraft 基岩版的游戏有一个名为 Minecraft Preview 的版本，用于提前测试功能。在 Android 上</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/tags/Minecraft/"/>
+    
+    <category term="Minecraft Bedrock Edition" scheme="http://blog.xyz8848.com/tags/Minecraft-Bedrock-Edition/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>永久免疫高速下载器教程</title>
+    <link href="http://blog.xyz8848.com/archives/7/"/>
+    <id>http://blog.xyz8848.com/archives/7/</id>
+    <published>2021-07-17T11:59:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li>输入<code>%TEMP%</code>，它会将你跳转到一个文件夹<br><img src="http://cdn.xyz8848.com/img/blog/7/1.png"></li><li>如果那个文件夹内有名为“gsxz”和“gzss”的文件夹，请将其删除<br><img src="http://cdn.xyz8848.com/img/blog/7/2.png"></li><li>请检查你是否开启了文件扩展名<br><img src="http://cdn.xyz8848.com/img/blog/7/3.png"></li><li>新建两个文本文档<br><img src="http://cdn.xyz8848.com/img/blog/7/4.png"></li><li>将这两个文本文档命名为“gsxz”和“gzss”<br><img src="http://cdn.xyz8848.com/img/blog/7/5.png"></li></ol><h2 id="更改“gsxz”的属性"><a href="#更改“gsxz”的属性" class="headerlink" title="更改“gsxz”的属性"></a>更改“gsxz”的属性</h2><p>右键名为“gsxz”的文件，并打开它的属性<br><img src="http://cdn.xyz8848.com/img/blog/7/6.png"><br><img src="http://cdn.xyz8848.com/img/blog/7/7.png"><br><img src="http://cdn.xyz8848.com/img/blog/7/8.png"><br><img src="http://cdn.xyz8848.com/img/blog/7/9.png"><br><img src="http://cdn.xyz8848.com/img/blog/7/10.png"><br><img src="http://cdn.xyz8848.com/img/blog/7/11.png"></p><h2 id="更改“gzss”的属性"><a href="#更改“gzss”的属性" class="headerlink" title="更改“gzss”的属性"></a>更改“gzss”的属性</h2><p>更改“gzss”的属性，操作同上<br><img src="http://cdn.xyz8848.com/img/blog/7/12.png"></p><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;输入&lt;code&gt;%TEMP%&lt;/code&gt;，它会将你跳转到一个文件夹&lt;br&gt;&lt;img src=&quot;http://c</summary>
+      
+    
+    
+    
+    <category term="实用教程" scheme="http://blog.xyz8848.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="高速下载" scheme="http://blog.xyz8848.com/tags/%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hypixel 加速 IP 搭建教程</title>
+    <link href="http://blog.xyz8848.com/archives/6/"/>
+    <id>http://blog.xyz8848.com/archives/6/</id>
+    <published>2021-06-12T23:48:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><a href="https://www.bt.cn/">宝塔面板</a></p><h2 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h2><h3 id="安装“Nginx”"><a href="#安装“Nginx”" class="headerlink" title="安装“Nginx”"></a>安装“Nginx”</h3><p><img src="http://cdn.xyz8848.com/img/blog/6/1.png"><br><img src="http://cdn.xyz8848.com/img/blog/6/2.png"></p><h3 id="配置“Nginx”"><a href="#配置“Nginx”" class="headerlink" title="配置“Nginx”"></a>配置“Nginx”</h3><p><img src="http://cdn.xyz8848.com/img/blog/6/3.png"></p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">stream{</span><br><span class="line">    server{</span><br><span class="line">        listen 25565;</span><br><span class="line">        proxy_pass mc.hypixel.net:25565;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><h3 id="重启“Nginx”"><a href="#重启“Nginx”" class="headerlink" title="重启“Nginx”"></a>重启“Nginx”</h3><p><img src="http://cdn.xyz8848.com/img/blog/6/4.png"></p><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.bt.cn/&quot;&gt;宝塔面板&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;教程开始&quot;&gt;&lt;a hre</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/tags/Minecraft/"/>
+    
+    <category term="Minecraft Java Edition" scheme="http://blog.xyz8848.com/tags/Minecraft-Java-Edition/"/>
+    
+    <category term="Minecraft Server" scheme="http://blog.xyz8848.com/tags/Minecraft-Server/"/>
+    
+    <category term="Proxy" scheme="http://blog.xyz8848.com/tags/Proxy/"/>
+    
+    <category term="Hypixel" scheme="http://blog.xyz8848.com/tags/Hypixel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决微软限制加入 Minecraft 服务器的方法</title>
+    <link href="http://blog.xyz8848.com/archives/5/"/>
+    <id>http://blog.xyz8848.com/archives/5/</id>
+    <published>2021-05-14T22:59:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><ol><li>转到 <a href="https://account.xbox.com/settings">https://account.xbox.com/settings</a>（可能会提示你登录 Microsoft）</li><li>向下滚动，在你的用户名和头像下面应该写着“Xbox one/windows 10 在线安全”，点击那个。</li><li>再向下滚动，直到你看到“你可以加入多人游戏”这个选项，并将其设定为允许，然后重新启动 Minecraft，就可以加入服务器了。</li></ol><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>本文内容参考 <a href="https://hypixel.net/threads/failed-to-login-null.3691530/">https://hypixel.net/threads/failed-to-login-null.3691530/</a></p><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;解决方案&quot;&gt;&lt;a href=&quot;#解决方案&quot; class=&quot;headerlink&quot; title=&quot;解决方案&quot;&gt;&lt;/a&gt;解决方案&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;转到 &lt;a href=&quot;https://account.xbox.com/settings&quot;&gt;https://a</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/tags/Minecraft/"/>
+    
+    <category term="Minecraft Bedrock Edition" scheme="http://blog.xyz8848.com/tags/Minecraft-Bedrock-Edition/"/>
+    
+    <category term="Minecraft Java Edition" scheme="http://blog.xyz8848.com/tags/Minecraft-Java-Edition/"/>
+    
+    <category term="Minecraft Server" scheme="http://blog.xyz8848.com/tags/Minecraft-Server/"/>
+    
+    <category term="Minecraft Multiplayer" scheme="http://blog.xyz8848.com/tags/Minecraft-Multiplayer/"/>
+    
+    <category term="Minecraft Account" scheme="http://blog.xyz8848.com/tags/Minecraft-Account/"/>
+    
+    <category term="Microsoft Account" scheme="http://blog.xyz8848.com/tags/Microsoft-Account/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电脑无法加载谷歌验证码的解决方案 (reCaptcha)</title>
+    <link href="http://blog.xyz8848.com/archives/4/"/>
+    <id>http://blog.xyz8848.com/archives/4/</id>
+    <published>2021-04-05T14:00:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>下载 <a href="https://www.google.cn/chrome/">Google Chrome 浏览器</a> 或 <a href="https://www.mozilla.org/zh-CN/firefox/all/">Firefox 浏览器</a>  </p><h2 id="下载插件"><a href="#下载插件" class="headerlink" title="下载插件"></a>下载插件</h2><p>前往 <a href="https://github.com/jiacai2050/gooreplacer/releases">Gooreplacer官方发布界面</a> 下载zip包，并将其解压<br><img src="http://cdn.xyz8848.com/img/blog/4/1.png"></p><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>将解压后的文件夹托人“扩展程序”中即可（记得打开开发者模式）</p><h2 id="配置插件"><a href="#配置插件" class="headerlink" title="配置插件"></a>配置插件</h2><ol><li>点击“新增”<br><img src="http://cdn.xyz8848.com/img/blog/4/2.png"></li><li>先新增一个重定向<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">www.google.com/recaptcha</span><br><span class="line">recaptcha.net/recaptcha</span><br></pre></td></tr></tbody></table></figure><img src="http://cdn.xyz8848.com/img/blog/4/3.png"></li><li>再新增一个重定向<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">recaptcha.google.com</span><br><span class="line">recaptcha.net</span><br></pre></td></tr></tbody></table></figure><img src="http://cdn.xyz8848.com/img/blog/4/4.png"></li></ol><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;p&gt;下载 &lt;a href=&quot;https://www.google.cn/chrome/&quot;&gt;Google Chrome 浏览器&lt;/</summary>
+      
+    
+    
+    
+    <category term="Web" scheme="http://blog.xyz8848.com/categories/Web/"/>
+    
+    
+    <category term="reCaptcha" scheme="http://blog.xyz8848.com/tags/reCaptcha/"/>
+    
+    <category term="谷歌验证码" scheme="http://blog.xyz8848.com/tags/%E8%B0%B7%E6%AD%8C%E9%AA%8C%E8%AF%81%E7%A0%81/"/>
+    
+    <category term="Captcha" scheme="http://blog.xyz8848.com/tags/Captcha/"/>
+    
+    <category term="验证码" scheme="http://blog.xyz8848.com/tags/%E9%AA%8C%E8%AF%81%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 CloudStudio 搭建 MCJE 服务器</title>
+    <link href="http://blog.xyz8848.com/archives/3/"/>
+    <id>http://blog.xyz8848.com/archives/3/</id>
+    <published>2021-02-23T20:02:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="创建并进入工作空间"><a href="#创建并进入工作空间" class="headerlink" title="创建并进入工作空间"></a>创建并进入工作空间</h2><p><img src="http://cdn.xyz8848.com/img/blog/3/1.png"><br><img src="http://cdn.xyz8848.com/img/blog/3/2.png"><br><img src="http://cdn.xyz8848.com/img/blog/3/3.png"></p><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><img src="http://cdn.xyz8848.com/img/blog/3/4.png"><br>打开终端后，先新建两个文件夹，一个叫server，另一个叫frp<br>在终端输入 <code>mkdir server</code> 和 <code>mkdir frp</code><br><img src="http://cdn.xyz8848.com/img/blog/3/5.png"></p><h2 id="安装-wget"><a href="#安装-wget" class="headerlink" title="安装 wget"></a>安装 wget</h2><p>由于它的系统比较纯净，所以无法直接使用 wget<br>这时，我们就需要安装 wget<br>首先我们先输入 <code>apt update</code><br>再输入 <code>apt install wget</code><br>这样我们就安装好了 wget<br><img src="http://cdn.xyz8848.com/img/blog/3/6.png"></p><h2 id="下载服务器核心"><a href="#下载服务器核心" class="headerlink" title="下载服务器核心"></a>下载服务器核心</h2><p>这里我选用Spigot核心，先到<a href="https://getbukkit.org/download/spigot/">Spigot的下载页面</a><br>如果你不知道用什么核心，可以参考我的<a href="../2">这一篇文章</a></p><p>这里我选择下载1.8.8版本<br><img src="http://cdn.xyz8848.com/img/blog/3/7.png"><br><img src="http://cdn.xyz8848.com/img/blog/3/8.png"><br><img src="http://cdn.xyz8848.com/img/blog/3/9.png"></p><p>在终端输入 <code>cd server</code> 再输入 <code>wget 刚刚复制的下载链接</code><br>（如：<code>wget https://cdn.getbukkit.org/spigot/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar</code>）<br><img src="http://cdn.xyz8848.com/img/blog/3/10.png"></p><h2 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h2><h3 id="搭建隧道"><a href="#搭建隧道" class="headerlink" title="搭建隧道"></a>搭建隧道</h3><p>这里我使用<a href="https://www.natfrp.com/">SakuraFrp</a><br>注册/登录 后，来到“管理面板”</p><p>再创建隧道<br><img src="http://cdn.xyz8848.com/img/blog/3/11.png"></p><p>先选择穿透节点，这里我使用的节点是美国洛杉矶CN2节点（你也可以选择其他节点）<br><img src="http://cdn.xyz8848.com/img/blog/3/12.png"></p><p>再选择隧道类型，必须用TCP<br><img src="http://cdn.xyz8848.com/img/blog/3/13.png"></p><p>再填写基本设置<br><img src="http://cdn.xyz8848.com/img/blog/3/14.png"></p><h3 id="使用隧道"><a href="#使用隧道" class="headerlink" title="使用隧道"></a>使用隧道</h3><ol><li>使用隧道就必须要下载一个软件<br><img src="http://cdn.xyz8848.com/img/blog/3/15.png"></li><li>现在，把软件安装进去<br>再新建一个终端<br><img src="http://cdn.xyz8848.com/img/blog/3/16.png"></li><li>在新的终端里面分别输入 <code>cd frp</code> 和 <code>wget 你刚刚在内网穿透软件下载界面复制的链接</code><br>（如：<code>wget https://getfrp.sh/d/frpc_linux_amd64</code>）<br><img src="http://cdn.xyz8848.com/img/blog/3/17.png"></li><li>下载完成后，我们就要赋予它执行权限。输入 <code>chmod +x 文件名</code>（文件名在下图）<br><img src="http://cdn.xyz8848.com/img/blog/3/18.png"></li><li>再输入 ./文件名，即可运行此程序<br><img src="http://cdn.xyz8848.com/img/blog/3/19.png"></li><li>当出现这个界面时，就代表运行成功了，我们需要输入登录令牌（登录令牌在下一步的图中）<br><img src="http://cdn.xyz8848.com/img/blog/3/20.png"></li><li>登录令牌可以在内网穿透网站的管理面板中找到<br><img src="http://cdn.xyz8848.com/img/blog/3/21.png"></li><li>输入了你的令牌之后，点击下方的login，就可以到这个界面了<br><img src="http://cdn.xyz8848.com/img/blog/3/22.png"></li><li>这时你使用鼠标左键点击你想要选择的隧道，选好后Ctrl+C即可<br>选好之后等它加载一会就会出现服务器IP，如下图<br><img src="http://cdn.xyz8848.com/img/blog/3/23.png"></li></ol><h2 id="启动Minecraft服务器"><a href="#启动Minecraft服务器" class="headerlink" title="启动Minecraft服务器"></a>启动Minecraft服务器</h2><p>回到第一个终端<br><img src="http://cdn.xyz8848.com/img/blog/3/24.png"><br><img src="http://cdn.xyz8848.com/img/blog/3/25.png"><br><img src="http://cdn.xyz8848.com/img/blog/3/26.png"><br>在终端里输入 java -jar 服务器核心名字<br>（如：java -jar server.jar）<br><img src="http://cdn.xyz8848.com/img/blog/3/27.png"><br><img src="http://cdn.xyz8848.com/img/blog/3/28.png"><br><img src="http://cdn.xyz8848.com/img/blog/3/29.png"></p><h2 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h2><ol><li>当你关闭网页后服务器也会关闭</li><li>如果你的终端变成了下图这样，输入 <code>n</code> 并回车即可<br><img src="http://cdn.xyz8848.com/img/blog/3/30.png"></li></ol><h2 id="关闭服务器"><a href="#关闭服务器" class="headerlink" title="关闭服务器"></a>关闭服务器</h2><p>在java终端里输入 <code>stop</code> 或 <code>end</code>（因服务器核心而定）</p><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;创建并进入工作空间&quot;&gt;&lt;a href=&quot;#创建并进入工作空间&quot; class=&quot;headerlink&quot; title=&quot;创建并进入工作空间&quot;&gt;&lt;/a&gt;创建并进入工作空间&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://cdn.xyz8848.com/img/blog/</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/tags/Minecraft/"/>
+    
+    <category term="Minecraft Java Edition" scheme="http://blog.xyz8848.com/tags/Minecraft-Java-Edition/"/>
+    
+    <category term="Minecraft Server" scheme="http://blog.xyz8848.com/tags/Minecraft-Server/"/>
+    
+    <category term="CloudStudio" scheme="http://blog.xyz8848.com/tags/CloudStudio/"/>
+    
+    <category term="搭建服务器" scheme="http://blog.xyz8848.com/tags/%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MCJE 服务端类型基本介绍</title>
+    <link href="http://blog.xyz8848.com/archives/2/"/>
+    <id>http://blog.xyz8848.com/archives/2/</id>
+    <published>2021-02-09T20:34:00.000Z</published>
+    <updated>2024-07-02T13:13:11.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Bukkit（纯插件服务端）"><a href="#Bukkit（纯插件服务端）" class="headerlink" title="Bukkit（纯插件服务端）"></a>Bukkit（纯插件服务端）</h2><h3 id="Spigot"><a href="#Spigot" class="headerlink" title="Spigot"></a>Spigot</h3><ul><li><a href="https://getbukkit.org/download/spigot">https://getbukkit.org/download/spigot</a><br>最常用的纯插件服务端，是 CraftBukkit 服务端的优化版，以多插件，高兼容性和稳定性著称，拥有着大量的插件以及完整的社区，下面介绍的服务端全是以 Spigot 为基础进行开发的<br><img src="http://cdn.xyz8848.com/img/blog/2/1.png" alt="Spigot"></li></ul><h3 id="Paper"><a href="#Paper" class="headerlink" title="Paper"></a>Paper</h3><ul><li><a href="https://papermc.io/downloads">https://papermc.io/downloads</a><br>原名为 PaperSpigot，拥有着大量的优化功能和高兼容性，同时拥有 Timings 的较新版本，并且也在 BukkitAPI 和 SpigotAPI 的基础上改进制作出 PaperAPI<br><img src="http://cdn.xyz8848.com/img/blog/2/2.png" alt="Paper"></li></ul><h3 id="Akarin"><a href="#Akarin" class="headerlink" title="Akarin"></a>Akarin</h3><ul><li><a href="https://github.com/Akarin-project/Akarin/releases">https://github.com/Akarin-project/Akarin/releases</a><br>原名 Torch，是 Paper 的优化端，更多游戏机制可配置，并且在高速的同时拥有较好的稳定性，阿卡林服务端是目前唯一一个多线程 Bukkit 同时优化与稳定性较高的服务端<br><img src="http://cdn.xyz8848.com/img/blog/2/3.png" alt="Akarin"></li></ul><h3 id="TacoSpigot"><a href="#TacoSpigot" class="headerlink" title="TacoSpigot"></a>TacoSpigot</h3><ul><li><a href="https://github.com/TacoSpigot/TacoSpigot/releases">https://github.com/TacoSpigot/TacoSpigot/releases</a><br>同样是 Paper 的优化端，已弃坑</li></ul><h3 id="CraftBukkit"><a href="#CraftBukkit" class="headerlink" title="CraftBukkit"></a>CraftBukkit</h3><ul><li><a href="https://getbukkit.org/download/craftbukkit">https://getbukkit.org/download/craftbukkit</a></li></ul><h2 id="Bukkit-Forge（可装-MOD-的服务端）"><a href="#Bukkit-Forge（可装-MOD-的服务端）" class="headerlink" title="Bukkit + Forge（可装 MOD 的服务端）"></a>Bukkit + Forge（可装 MOD 的服务端）</h2><h3 id="Catserver"><a href="#Catserver" class="headerlink" title="Catserver"></a>Catserver</h3><ul><li><a href="http://catmc.org/">http://catmc.org/</a></li><li><a href="https://github.com/Luohuayu/CatServer/releases">https://github.com/Luohuayu/CatServer/releases</a></li><li><a href="https://catserver.moe/">https://catserver.moe/</a><br>拥有原创优化与 Paper 优化功能，是 1.12.2 的 Bukkit+Spigot+Forge 的服务端核心，修复了大量的 Bug，国内最早开发的高版本核心, 支持大部分 MOD 和插件同时稳定运行</li></ul><h3 id="Mohist"><a href="#Mohist" class="headerlink" title="Mohist"></a>Mohist</h3><ul><li><a href="https://mohistmc.com/download">https://mohistmc.com/download</a><br>几乎兼容所有的 Forge MOD 和 Bukkit/Spigot 插件，拥有 Bukkit+Spigot+Forge 服务端核心，国外热门的高版本核心，提供了中文支持<br><img src="http://cdn.xyz8848.com/img/blog/2/4.png" alt="Mohist"></li></ul><h3 id="Arclight"><a href="#Arclight" class="headerlink" title="Arclight"></a>Arclight</h3><ul><li><a href="https://github.com/IzzelAliz/Arclight/releases">https://github.com/IzzelAliz/Arclight/releases</a><br>在 Forge 上使用 Mixin 实现的 Bukkit 服务端，高版本 MOD 服值得一试</li></ul><h3 id="KCauldron"><a href="#KCauldron" class="headerlink" title="KCauldron"></a>KCauldron</h3><ul><li><a href="https://github.com/Beshelmek/KCauldron">https://github.com/Beshelmek/KCauldron</a><br>原名 MCPC+，是 1.7.10 老牌 MOD 服务端，几乎所有 1.7.10 的 MOD 服务端都以此为基础进行再开发</li></ul><h3 id="Thermos"><a href="#Thermos" class="headerlink" title="Thermos"></a>Thermos</h3><ul><li><a href="https://github.com/CyberdyneCC/Thermos">https://github.com/CyberdyneCC/Thermos</a><br>KCauldron 的优化端，在 KCauldron 停止开发的期间就出现了 Thermos，它比 KCauldron 的兼容性更高，修复了大量 Bug 并进行了优化，且 Forge 不再会跳过 bukkit 的插件，已弃坑</li></ul><h3 id="Uranium"><a href="#Uranium" class="headerlink" title="Uranium"></a>Uranium</h3><ul><li><a href="https://github.com/UraniumMC/Uranium">https://github.com/UraniumMC/Uranium</a><br>KCauldron 的优化端，类似于 Fhermos，它修复了更多的 Bug 并提供了更强的兼容性</li></ul><h2 id="Sponge"><a href="#Sponge" class="headerlink" title="Sponge"></a>Sponge</h2><p><img src="http://cdn.xyz8848.com/img/blog/2/5.png" alt="Sponge"></p><h3 id="Sponge-Forge"><a href="#Sponge-Forge" class="headerlink" title="Sponge Forge"></a>Sponge Forge</h3><ul><li><a href="https://spongepowered.org/downloads/spongeforge">https://spongepowered.org/downloads/spongeforge</a><br>支持 MOD 和 Sponge 插件，拥有独立的 SpongeAPI 进行开发，使得只需要开发一个 API 插件即可在同一个 API 的不同 MineCraft 版本上运行，许多 Bukkit 系插件也同意开发 Sponge 版本</li></ul><h3 id="Sponge-Vanilla"><a href="#Sponge-Vanilla" class="headerlink" title="Sponge Vanilla"></a>Sponge Vanilla</h3><ul><li><a href="https://spongepowered.org/downloads/spongevanilla">https://spongepowered.org/downloads/spongevanilla</a><br>仅支持 Sponge 系插件的纯净服务端</li></ul><h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><h3 id="BungeeCord"><a href="#BungeeCord" class="headerlink" title="BungeeCord"></a>BungeeCord</h3><ul><li><a href="https://ci.md-5.net/job/BungeeCord/">https://ci.md-5.net/job/BungeeCord/</a></li></ul><script src="https://giscus.app/client.js" data-repo="XyzComments/blog.xyz8848.com" data-repo-id="R_kgDOHq8Hag" data-category="Comments" data-category-id="DIC_kwDOHq8Has4CQRHf" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="zh-CN" crossorigin="anonymous" async=""></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Bukkit（纯插件服务端）&quot;&gt;&lt;a href=&quot;#Bukkit（纯插件服务端）&quot; class=&quot;headerlink&quot; title=&quot;Bukkit（纯插件服务端）&quot;&gt;&lt;/a&gt;Bukkit（纯插件服务端）&lt;/h2&gt;&lt;h3 id=&quot;Spigot&quot;&gt;&lt;a href=&quot;</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/categories/Minecraft/"/>
+    
+    
+    <category term="Minecraft" scheme="http://blog.xyz8848.com/tags/Minecraft/"/>
+    
+    <category term="Minecraft Java Edition" scheme="http://blog.xyz8848.com/tags/Minecraft-Java-Edition/"/>
+    
+    <category term="Minecraft Server" scheme="http://blog.xyz8848.com/tags/Minecraft-Server/"/>
+    
+  </entry>
+  
+</feed>
